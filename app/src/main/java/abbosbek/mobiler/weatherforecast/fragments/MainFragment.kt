@@ -74,7 +74,6 @@ class MainFragment : Fragment() {
         checkPermission()
         init()
         updateCurrentCard()
-        getLocation()
     }
 
     private fun updateCurrentCard() = with(binding){
